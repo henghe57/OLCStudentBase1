@@ -41,19 +41,19 @@ for country, capital in countries.items():
             # if available, print the price
             # else, tell customer not available
 
-foods = {"burger":"$5.00","fries":"$2.00","sushi":"$10.00"}
+# foods = {"burger":"$5.00","fries":"$2.00","sushi":"$10.00"}
 
-print("Menu Items")
-for food, price in foods.items():
-        # print(f"The price of the {food} is {price}")
-        print(food)
+# print("Menu Items")
+# for food, price in foods.items():
+#         # print(f"The price of the {food} is {price}")
+#         print(food)
 
-questioning = input("what would you want to order? ")
+# questioning = input("what would you want to order? ")
 
-if questioning in foods: # if this is true, means customer ordered something in the menu
-    print(f"The price of the {questioning} is {price}")
-else:
-    print("State what you want to order according to the food menu.")
+# if questioning in foods: # if this is true, means customer ordered something in the menu
+#     print(f"The price of the {questioning} is {price}")
+# else:
+#     print("State what you want to order according to the food menu.")
 
 
 
