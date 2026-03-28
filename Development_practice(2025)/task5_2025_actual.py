@@ -60,8 +60,8 @@ def main():
     # output the receipt
     print("\n========Receipt========")
     print(f"Customer: {first_name}")
-    print(f"Total cost of the sale with tax: {total_before_discount}")
-    print(f"Discounted price of the sale: {total_after_discount}")
+    print(f"Total cost of the sale with tax: {total_before_discount:.2f}")
+    print(f"Discounted price of the sale: {total_after_discount:.2f}")
     print(f"Reward points earned: {points}")
 
     if voucher_code:
@@ -71,6 +71,6 @@ def main():
     else:
         print("You need to spend over $25 for a voucher code.")
     
-    print("======================")
+    print("=======================")
     print("Thank you for your purchase!")
 main()
