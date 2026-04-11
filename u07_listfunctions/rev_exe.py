@@ -162,22 +162,55 @@ scores = [
 # In the current list, there are 2 students with the highest score.
 # Find the highest score first.
 # Then print all student names who got that highest score.
+# highest_score = scores[0]
+# for i in scores:
+#     if i > highest_score:
+#         highest_score = i
+# for j in range(len(scores)):
+#     if scores[j] == highest_score:
+#         print(names[j])
 
-# Q17
 # Print the result in this format:
 # "Top scorer(s): Lydia, Samuel with 95 marks."
+
+# highest_score = scores[0]
+# for i in scores:
+#     if i > highest_score:
+#         highest_score = i
+# top_scorers = []
+# for j in range(len(scores)):
+#     if scores[j] == highest_score:
+#         top_scorers.append(names[j])
+# print(f"Top scorer(s): {', '.join(top_scorers)} with {highest_score} marks.")
 
 # Q18
 # Find all students who got the lowest score.
 # Print their names and the score.
+# lowest_score = scores[0]
+# for i in scores:
+#     if i < lowest_score:
+#         lowest_score = i
+# for j in range(len(scores)):
+#     if scores[j] == lowest_score:
+#         print(f"{names[j]} : {lowest_score}")
 
 # Q19
 # Count how many students got the highest score.
 # Print the number.
-
+# counter = 0
+# highest_score = max(scores)
+# for i in range(len(scores)):
+#     if scores[i] == highest_score:
+#         counter += 1
+# print(f"Number of students with highest score: {counter}")
 # Q20
 # Count how many students scored above 80.
-
+# counter = 0
+# score = 80
+# for i in range(len(scores)):
+#     if scores[i] > score:
+#         counter += 1
+# print(f"Number of students with scores above {score}: {counter}")
 
 # --------------------------------------------------
 # PART 5: Searching and filtering
