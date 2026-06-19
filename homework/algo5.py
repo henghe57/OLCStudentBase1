@@ -58,7 +58,7 @@ with open("sherlockvowel.txt","w") as file2:
         file2.write(vowel + ":" + str(vowels[vowel]) + "\n")
     file2.write(f"\nMost frequent vowel: {max_vowel}")
 
-
-
-
+for vowel in vowels:
+        print(vowel + ":" + str(vowels[vowel]) + "\n")
+print(f"\nMost frequent vowel: {max_vowel}")
 ##############################################################
