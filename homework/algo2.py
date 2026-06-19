@@ -41,4 +41,4 @@ for student in attendance:
     if attendance[student] >= 90 and scores[student] >= 85:
         star_students.append(student)
 for student in star_students:
-    print(f"Congratulations {student}! ")
+    print(f"Congratulations {student}! With an attendance of {attendance[student]} and a score of {scores[student]}")

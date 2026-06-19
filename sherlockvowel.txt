@@ -1,0 +1,7 @@
+a:3401
+e:4835
+i:2932
+o:3227
+u:1310
+
+Most frequent vowel: e
